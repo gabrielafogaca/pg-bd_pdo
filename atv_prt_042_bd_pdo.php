@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-
 <html> 
 <head>
 <meta charset="utf-8" />
-
 <title>Exibe os feedbacks</title>
-
 </head>
 <body>
 
@@ -16,8 +13,7 @@
 $host = 'localhost'; 
 $user = 'aluno'; 
 $passw = 'aluno';
-$dbname = 'atv_prt_042_bd_pdo';
-
+$dbname = 'atv_prt_042_bd';
 try {
 //Efetua a conexão com BD
 $conx = new PDO("mysql:host=$host;dbname=$dbname", $user, $passw);
